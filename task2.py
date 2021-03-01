@@ -25,10 +25,10 @@ Enter a word: virus
 """
 
 a=input("Enter a word:").strip()
-b=input("Enter a word:")
-c=input("Enter a word:")
-d=input("Enter a word:")
-e=input("Enter a word:")
+b=input("Enter a word:").strip()
+c=input("Enter a word:").strip()
+d=input("Enter a word:").strip()
+e=input("Enter a word:").strip()
 myList = [a,b,c,d,e]
 print(str(myList))
 
