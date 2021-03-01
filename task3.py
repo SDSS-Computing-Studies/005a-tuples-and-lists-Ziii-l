@@ -14,3 +14,6 @@ The smallest number is 3 and the largest number is 9
 """
 
 myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
+number=sorted(myList)
+print(number)
+print("The smallest number is "+ str(number[0]) +" and the largest number is "+ str(number[-1]))
