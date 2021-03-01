@@ -30,5 +30,5 @@ c=input("Enter a word:")
 d=input("Enter a word:")
 e=input("Enter a word:")
 myList = [a,b,c,d,e]
-print(myList)
+print(str(myList))
 
