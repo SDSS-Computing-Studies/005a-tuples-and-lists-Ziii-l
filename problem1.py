@@ -23,7 +23,7 @@ myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
 
 word =str(input("Choose a person from the list to replace: ").strip())
-replace = str(input("Enter the replacement: "))
+replace = str(input("Enter the replacement: "))
 
 dIndex = myList.index(word)
 myList.remove(word)
