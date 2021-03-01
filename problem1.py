@@ -19,14 +19,14 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
-myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
+myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
 
-word = str(input("Choose a person from the list to replace: ").strip())
-replace = str(input("Enter the replacement: "))
+word =str(input("Choose a person from the list to replace: ").strip())
+replace = str(input("Enter the replacement: "))
 
-dIndex = myList.index(word)
+dIndex = myList.index(word)
 myList.remove(word)
-myList.insert(dIndex, str(replace))
+myList.insert(dIndex,str(replace))
 
 print(myList)
