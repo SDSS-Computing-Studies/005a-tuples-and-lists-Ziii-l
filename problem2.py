@@ -30,6 +30,7 @@ if t in fruit:
     fruit.remove(t)
     print(fruit)
 else :
-    fruit.append(t)
+    # add the word into list
+    fruit.insert(-1,t)
     print(fruit)
     
