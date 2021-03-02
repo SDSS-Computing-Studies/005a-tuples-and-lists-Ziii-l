@@ -24,7 +24,7 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry"]
+fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 t=input("Enter a word: ").strip()
 if t in fruit:
     fruit.remove(t)
