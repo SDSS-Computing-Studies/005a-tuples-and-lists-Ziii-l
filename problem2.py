@@ -30,7 +30,7 @@ t=input("Enter a word from the list: ").strip()
 if t in fruit:
     fruit.remove(t)
     print(fruit)
-else :
-    fruit.insert(9,t)
-    print(fruit)
+    if t not in fruit:
+        fruit.insert(9,t)
+        print(fruit)
     
