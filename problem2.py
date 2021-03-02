@@ -25,12 +25,12 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-t=input("Enter a word: ").strip()
-if t in fruit:
-    fruit.remove(t)
-    print(fruit)
-else :
-    # add the word into list
-    fruit.insert(9,t)
-    print(fruit)
+t=input("Enter a word from the list: ").strip()
+for t in fruit:
+    if t in fruit:
+        fruit.remove(t)
+        print(fruit)
+    else :
+        fruit.insert(9,t)
+        print(fruit)
     
