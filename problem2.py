@@ -13,7 +13,7 @@ outputs:
 list
 
 examples:
-['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi']
+['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry','kiwi']
 Enter a word from the list:kiwi
 ['apple', 'cherry', 'apple', 'banana', 'strawberry', 'blueberry']
 
@@ -24,13 +24,13 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry"]
 t=input("Enter a word: ").strip()
 if t in fruit:
     fruit.remove(t)
     print(fruit)
 else :
     # add the word into list
-    fruit.insert(-1,t)
+    fruit.insert(8,t)
     print(fruit)
     
