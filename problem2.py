@@ -31,6 +31,6 @@ if t in fruit:
     print(fruit)
 else :
     # add the word into list
-    fruit.insert(8,t)
+    fruit.insert(9,t)
     print(fruit)
     
